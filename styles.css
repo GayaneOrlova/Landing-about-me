@@ -281,6 +281,23 @@ progress {
     height: auto;
 }
 
+.process__images img:hover {
+    background-image: url(images/view.png);
+}
+
+.now {
+    visibility: hidden;
+    display: contents;
+}
+.now:hover {
+    visibility:visible
+    display: contents;
+}
+
+/* .now__hovered__image {
+    display: inline;
+} */
+
 .hovered__image {
     display: inherit;
     background-image: url(images/hovered__image.jpg);
