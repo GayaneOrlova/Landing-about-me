@@ -149,6 +149,12 @@ h2 {
 
 .skills__list {
     padding: 0;
+}
+
+.skills img {
+    width: 100%;
+    max-width: 555px;
+    height: auto;
 
 }
 
